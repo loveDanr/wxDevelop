@@ -40,7 +40,7 @@ namespace WeiXinApi.Util
             return result;
         }
 
-
+        //修正格式换行显示
         /// <summary>
         /// 回复单图文
         /// </summary>
@@ -53,11 +53,6 @@ namespace WeiXinApi.Util
         /// <returns>拼凑的XML</returns>
         public static string ReArticle(string FromUserName, string ToUserName, string Title, string Description, string PicUrl, string Url)
         {
-            //string XML = "<xml><ToUserName><![CDATA[" + FromUserName + "]]></ToUserName><FromUserName><![CDATA[" + ToUserName + "]]></FromUserName>";//发送给谁(openid)，来自谁(公众账号ID)
-            //XML += "<CreateTime>" + DateTime2Int(DateTime.Now) + "</CreateTime>";//回复时间戳
-            //XML += "<MsgType><![CDATA[news]]></MsgType><Content><![CDATA[]]></Content><ArticleCount>1</ArticleCount><Articles>";
-            //XML += "<item><Title><![CDATA[" + Title + "]]></Title><Description><![CDATA[" + Description + "]]></Description><PicUrl><![CDATA[" + PicUrl + "]]></PicUrl><Url><![CDATA[" + Url + "]]></Url></item>";
-            //XML += "</Articles><FuncFlag>0</FuncFlag></xml>";
             string XML = string.Format(@"<xml>
 			            <ToUserName><![CDATA[{0}]]></ToUserName>
 			            <FromUserName><![CDATA[{1}]]></FromUserName>
