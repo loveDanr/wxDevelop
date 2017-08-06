@@ -1,15 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
+using System.Web.Services.Description;
 using System.Xml;
 using WeiXinApi.Util;
+using WeiXinApi.Model;
+using System.Xml.Linq;
 
 namespace WeiXinApi.Util
 {
     public class WeiXinXML
     {
-
+       /// <summary>
+       /// 创建文本消息XML
+       /// </summary>
+       /// <param name="xmlDoc"></param>
+       /// <param name="content"></param>
+       /// <returns></returns>
         public static string CreateTextMsg(XmlDocument xmlDoc, string content)
         {
             string strTpl = string.Format(@"<xml>
@@ -71,7 +80,11 @@ namespace WeiXinApi.Util
             return XML;
         }
 
-
+        /// <summary>
+        /// 时间转换程秒
+        /// </summary>
+        /// <param name="dt"></param>
+        /// <returns></returns>
         public static int DateTime2Int(DateTime dt)
         {
             DateTime startTime = TimeZone.CurrentTimeZone.ToLocalTime(new System.DateTime(1970, 1, 1));
@@ -89,5 +102,7 @@ namespace WeiXinApi.Util
             }
             return "";
         }
+
+
     }
 }
