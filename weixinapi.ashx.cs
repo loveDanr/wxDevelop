@@ -14,7 +14,7 @@ namespace WeiXinApi
     /// </summary>
     public class weixinapi : IHttpHandler
     {
-        //三个加密字段
+        //公众号上接口字段
         string Token = "key";
         /// <summary>
         /// AppId 要与 微信公共平台 上的 AppId 保持一致
