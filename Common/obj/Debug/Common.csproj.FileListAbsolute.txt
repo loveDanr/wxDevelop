@@ -1,9 +1,0 @@
-D:\C#DevelopProject\【开发版】WeiXinApi\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
-D:\C#DevelopProject\【开发版】WeiXinApi\Common\bin\Debug\Common.dll
-D:\C#DevelopProject\【开发版】WeiXinApi\Common\bin\Debug\Common.pdb
-D:\C#DevelopProject\【开发版】WeiXinApi\Common\obj\Debug\Common.dll
-D:\C#DevelopProject\【开发版】WeiXinApi\Common\obj\Debug\Common.pdb
-D:\C#DevelopProject\【开发版】WeiXinApi\Common\bin\Debug\IDAL.dll
-D:\C#DevelopProject\【开发版】WeiXinApi\Common\bin\Debug\Model.dll
-D:\C#DevelopProject\【开发版】WeiXinApi\Common\bin\Debug\IDAL.pdb
-D:\C#DevelopProject\【开发版】WeiXinApi\Common\bin\Debug\Model.pdb
