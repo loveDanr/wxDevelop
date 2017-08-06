@@ -1,0 +1,19 @@
+c:\users\administrator\documents\visual studio 2013\Projects\WeiXinApi\WeiXinApi\bin\WeiXinApi.dll.config
+c:\users\administrator\documents\visual studio 2013\Projects\WeiXinApi\WeiXinApi\bin\WeiXinApi.dll
+c:\users\administrator\documents\visual studio 2013\Projects\WeiXinApi\WeiXinApi\bin\WeiXinApi.pdb
+c:\users\administrator\documents\visual studio 2013\Projects\WeiXinApi\WeiXinApi\obj\Debug\WeiXinApi.dll
+c:\users\administrator\documents\visual studio 2013\Projects\WeiXinApi\WeiXinApi\obj\Debug\WeiXinApi.pdb
+d:\Desktop\WeiXinApi\bin\WeiXinApi.dll.config
+d:\Desktop\WeiXinApi\bin\WeiXinApi.dll
+d:\Desktop\WeiXinApi\bin\WeiXinApi.pdb
+d:\Desktop\WeiXinApi\obj\Debug\WeiXinApi.dll
+d:\Desktop\WeiXinApi\obj\Debug\WeiXinApi.pdb
+d:\Desktop\WeiXinApi\obj\Debug\WeiXinApi.csprojResolveAssemblyReference.cache
+D:\C#DevelopProject\WeiXinApi\obj\Debug\WeiXinApi.csprojResolveAssemblyReference.cache
+D:\C#DevelopProject\WeiXinApi\obj\Debug\WeiXinApi.dll
+D:\C#DevelopProject\WeiXinApi\obj\Debug\WeiXinApi.pdb
+D:\C#DevelopProject\【开发版】WeiXinApi\bin\WeiXinApi.dll.config
+D:\C#DevelopProject\【开发版】WeiXinApi\bin\WeiXinApi.dll
+D:\C#DevelopProject\【开发版】WeiXinApi\bin\WeiXinApi.pdb
+D:\C#DevelopProject\【开发版】WeiXinApi\obj\Debug\WeiXinApi.dll
+D:\C#DevelopProject\【开发版】WeiXinApi\obj\Debug\WeiXinApi.pdb
