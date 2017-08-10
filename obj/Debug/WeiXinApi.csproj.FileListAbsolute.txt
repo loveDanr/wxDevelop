@@ -15,5 +15,13 @@ D:\C#DevelopProject\WeiXinApi\obj\Debug\WeiXinApi.pdb
 D:\C#DevelopProject\【开发版】WeiXinApi\bin\WeiXinApi.dll.config
 D:\C#DevelopProject\【开发版】WeiXinApi\bin\WeiXinApi.dll
 D:\C#DevelopProject\【开发版】WeiXinApi\bin\WeiXinApi.pdb
+D:\C#DevelopProject\【开发版】WeiXinApi\bin\System.Net.Http.dll
+D:\C#DevelopProject\【开发版】WeiXinApi\bin\System.Net.Http.xml
+D:\C#DevelopProject\【开发版】WeiXinApi\bin\zh-Hans\System.Net.Http.resources.dll
 D:\C#DevelopProject\【开发版】WeiXinApi\obj\Debug\WeiXinApi.dll
 D:\C#DevelopProject\【开发版】WeiXinApi\obj\Debug\WeiXinApi.pdb
+C:\wxdemo\bin\WeiXinApi.dll
+C:\wxdemo\bin\WeiXinApi.pdb
+C:\wxdemo\obj\Debug\ResolveAssemblyReference.cache
+C:\wxdemo\obj\Debug\WeiXinApi.dll
+C:\wxdemo\obj\Debug\WeiXinApi.pdb

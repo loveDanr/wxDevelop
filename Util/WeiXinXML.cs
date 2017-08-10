@@ -13,12 +13,12 @@ namespace WeiXinApi.Util
 {
     public class WeiXinXML
     {
-       /// <summary>
-       /// 创建文本消息XML
-       /// </summary>
-       /// <param name="xmlDoc"></param>
-       /// <param name="content"></param>
-       /// <returns></returns>
+        /// <summary>
+        /// 创建文本消息XML
+        /// </summary>
+        /// <param name="xmlDoc"></param>
+        /// <param name="content"></param>
+        /// <returns></returns>
         public static string CreateTextMsg(XmlDocument xmlDoc, string content)
         {
             string strTpl = string.Format(@"<xml>
@@ -63,20 +63,20 @@ namespace WeiXinApi.Util
         public static string ReArticle(string FromUserName, string ToUserName, string Title, string Description, string PicUrl, string Url)
         {
             string XML = string.Format(@"<xml>
-			            <ToUserName><![CDATA[{0}]]></ToUserName>
-			            <FromUserName><![CDATA[{1}]]></FromUserName>
-                        <CreateTime>{2}</CreateTime>
-                        <MsgType><![CDATA[news]]></MsgType>
-			            <Content><![CDATA[]]></Content>
-			            <ArticleCount>1</ArticleCount>
-			            <Articles>
-                        <item><Title><![CDATA[{3}]]></Title>
-			            <Description><![CDATA[{4}]]></Description>
-			            <PicUrl><![CDATA[{5}]]></PicUrl>
-			            <Url><![CDATA[{6}]]></Url></item>
-                        </Articles>
-			            <FuncFlag>0</FuncFlag>
-			</xml>",FromUserName,ToUserName,DateTime2Int(DateTime.Now),Title,Description,PicUrl,Url);
+			                <ToUserName><![CDATA[{0}]]></ToUserName>
+			                <FromUserName><![CDATA[{1}]]></FromUserName>
+                            <CreateTime>{2}</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[{3}]]></Title>
+			                <Description><![CDATA[{4}]]></Description>
+			                <PicUrl><![CDATA[{5}]]></PicUrl>
+			                <Url><![CDATA[{6}]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>", FromUserName, ToUserName, DateTime2Int(DateTime.Now), Title, Description, PicUrl, Url);
             return XML;
         }
 
@@ -102,6 +102,7 @@ namespace WeiXinApi.Util
             }
             return "";
         }
+        
 
 
     }
