@@ -1,0 +1,1 @@
+"<ToUserName><![CDATA[gh_45c486d4afb1]]></ToUserName><FromUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></FromUserName><CreateTime>1502250796</CreateTime><MsgType><![CDATA[location]]></MsgType><Location_X>20.028950</Location_X><Location_Y>110.333107</Location_Y><Scale>16</Scale><Label><![CDATA[龙华区海南医学院附属医院综合楼]]></Label><MsgId>6452118039691536649</MsgId>"

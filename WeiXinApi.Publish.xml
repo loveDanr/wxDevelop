@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\ERIC\Desktop\PUBLIC" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="WebUI/css/style.css" publishTime="08/11/2017 15:31:03" />
+    <file relUrl="bin/System.Net.Http.dll" publishTime="07/09/2013 11:04:48" />
+    <file relUrl="bin/log4net.dll" publishTime="05/19/2017 12:13:19" />
+    <file relUrl="Web.config" publishTime="08/11/2017 15:57:44" />
+    <file relUrl="WebUI/js/jquery.js" publishTime="08/11/2017 15:28:46" />
+    <file relUrl="WebUI/AllListPage.aspx" publishTime="08/11/2017 15:37:24" />
+    <file relUrl="bin/WeiXinApi.pdb" publishTime="08/11/2017 16:00:07" />
+    <file relUrl="bin/WeiXinApi.dll" publishTime="08/11/2017 16:00:07" />
+    <file relUrl="weixinapi.ashx" publishTime="09/22/2015 21:08:12" />
+  </publishProfile>
+</publishData>

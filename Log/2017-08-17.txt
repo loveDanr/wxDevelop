@@ -1,0 +1,1540 @@
+
+日志信息 :
+2017-08-17 09:17:07
+系统回复的明文<xml>
+                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                <CreateTime>1502932627</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[微医app - 原名 挂号网，用手机挂号，十分方便！更有医生咨询、智能分诊、院外候诊、病历管理等强大功能。
+预约挂号 聚合全国超过900家重点医院的预约挂号资源
+咨询医生 支持医患之间随时随地图文、语音、视频方式的沟通交流
+智能分诊 根据分诊自测系统分析疾病类型，提供就诊建议
+院外候诊 时间自由可控，不再无谓浪费
+病历管理 病历信息统一管理，个人健康及时监测
+贴心服务 医疗支付、报告提取、医院地图
+权威保障 国家卫计委（原卫生部）指定的全国健康咨询及就医指导平台
+[微医] 目前用户量大，有些不足我们正加班加点的努力完善，希望大家用宽容的心给 [微医] 一点好评，给我们一点激励，让 [微医] 和大家的健康诊疗共成长。]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 09:17:17
+系统回复的明文<xml>
+                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                <CreateTime>1502932637</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[嘻嘻爸爸就是我！]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 09:17:21
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502932641</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[点击图片查看您附近的疾控中心]]></Title>
+			                <Description><![CDATA[测试测试测试测试]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/navi.jpg]]></PicUrl>
+			                <Url><![CDATA[http://m.amap.com/around/?locations=&keywords=疾控中心&defaultIndex=3&defaultView=map&searchRadius=5000&key=33fe5b1e0fc0023eb1cd28b392d5e70f]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 09:55:24
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 09:55:45
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502934945</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[http://eb7dvc.natappfree.cc/WebUI/OAuthRedirectUri.aspx]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 09:57:05
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 09:57:15
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502935035</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[http://eb7dvc.natappfree.cc/WebUI/OAuthRedirectUri.aspx]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 09:58:19
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 09:59:50
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 09:59:53
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 10:00:07
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 10:00:25
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 10:00:28
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 10:13:49
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 10:15:22
+系统回复的明文<xml>
+                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                <CreateTime>1502936122</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[微医app - 原名 挂号网，用手机挂号，十分方便！更有医生咨询、智能分诊、院外候诊、病历管理等强大功能。
+预约挂号 聚合全国超过900家重点医院的预约挂号资源
+咨询医生 支持医患之间随时随地图文、语音、视频方式的沟通交流
+智能分诊 根据分诊自测系统分析疾病类型，提供就诊建议
+院外候诊 时间自由可控，不再无谓浪费
+病历管理 病历信息统一管理，个人健康及时监测
+贴心服务 医疗支付、报告提取、医院地图
+权威保障 国家卫计委（原卫生部）指定的全国健康咨询及就医指导平台
+[微医] 目前用户量大，有些不足我们正加班加点的努力完善，希望大家用宽容的心给 [微医] 一点好评，给我们一点激励，让 [微医] 和大家的健康诊疗共成长。]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 10:15:23
+系统回复的明文<xml>
+                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                <CreateTime>1502936123</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[微医app - 原名 挂号网，用手机挂号，十分方便！更有医生咨询、智能分诊、院外候诊、病历管理等强大功能。
+预约挂号 聚合全国超过900家重点医院的预约挂号资源
+咨询医生 支持医患之间随时随地图文、语音、视频方式的沟通交流
+智能分诊 根据分诊自测系统分析疾病类型，提供就诊建议
+院外候诊 时间自由可控，不再无谓浪费
+病历管理 病历信息统一管理，个人健康及时监测
+贴心服务 医疗支付、报告提取、医院地图
+权威保障 国家卫计委（原卫生部）指定的全国健康咨询及就医指导平台
+[微医] 目前用户量大，有些不足我们正加班加点的努力完善，希望大家用宽容的心给 [微医] 一点好评，给我们一点激励，让 [微医] 和大家的健康诊疗共成长。]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 10:15:23
+系统回复的明文<xml>
+                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                <CreateTime>1502936123</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[微医app - 原名 挂号网，用手机挂号，十分方便！更有医生咨询、智能分诊、院外候诊、病历管理等强大功能。
+预约挂号 聚合全国超过900家重点医院的预约挂号资源
+咨询医生 支持医患之间随时随地图文、语音、视频方式的沟通交流
+智能分诊 根据分诊自测系统分析疾病类型，提供就诊建议
+院外候诊 时间自由可控，不再无谓浪费
+病历管理 病历信息统一管理，个人健康及时监测
+贴心服务 医疗支付、报告提取、医院地图
+权威保障 国家卫计委（原卫生部）指定的全国健康咨询及就医指导平台
+[微医] 目前用户量大，有些不足我们正加班加点的努力完善，希望大家用宽容的心给 [微医] 一点好评，给我们一点激励，让 [微医] 和大家的健康诊疗共成长。]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 10:45:16
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 10:46:20
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 10:46:24
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 10:48:44
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 10:53:47
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 11:01:55
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 11:26:59
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 11:29:10
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 11:35:27
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 11:36:38
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 11:39:33
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 11:54:24
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 11:58:54
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:00:50
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:01:46
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:02:57
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:03:38
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:06:33
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:07:43
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:10:09
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:13:08
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:14:38
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:17:54
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:19:20
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:20:54
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:23:50
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:32:35
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:34:36
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:36:07
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:36:30
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:43:05
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:45:17
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:47:33
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:48:10
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:50:25
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:50:45
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502945445</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[http://eb7dvc.natappfree.cc/WebUI/AllListPage.aspx]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:51:47
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:58:20
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:58:26
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502945906</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[http://eb7dvc.natappfree.cc/WebUI/AllListPage.aspx]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:59:46
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 12:59:52
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502945992</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[http://eb7dvc.natappfree.cc/WebUI/AllListPage.aspx]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 13:07:03
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 13:07:11
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502946431</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[http://eb7dvc.natappfree.cc/WebUI/AllListPage.aspx]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 13:10:10
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 13:10:16
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502946616</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[http://eb7dvc.natappfree.cc/WebUI/AllListPage.aspx]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 13:27:14
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 13:27:25
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502947645</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[http://eb7dvc.natappfree.cc/WebUI/AllListPage.aspx]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 13:28:36
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 13:28:44
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502947724</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[http://eb7dvc.natappfree.cc/WebUI/AllListPage.aspx]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 13:32:38
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 13:32:43
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502947963</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[http://eb7dvc.natappfree.cc/WebUI/AllListPage.aspx]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 13:45:30
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 13:45:35
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502948735</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[http://eb7dvc.natappfree.cc/WebUI/AllListPage.aspx]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 13:48:24
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 13:48:30
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502948910</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[http://eb7dvc.natappfree.cc/WebUI/AllListPage.aspx]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 13:54:32
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 13:54:40
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502949280</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=http%3a%2f%2feb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 13:56:22
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 13:56:32
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502949392</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=eb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 13:58:29
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502949509</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=eb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:01:25
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502949685</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=http%3a%2f%2feb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:01:38
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:01:49
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502949709</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=http%3a%2f%2feb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:03:05
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:17:26
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:17:35
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502950655</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=http%3a%2f%2feb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:18:50
+获取openid失败，错误码：40163
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:19:12
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:19:17
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502950757</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=http%3a%2f%2feb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:21:20
+获取openid失败，错误码：40163
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:21:54
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:21:59
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502950919</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=http%3a%2f%2feb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:22:44
+获取openid失败，错误码：40163
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:23:13
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:23:19
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502950999</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=http%3a%2f%2feb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:23:23
+获取openid失败，错误码：40163
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:23:31
+获取openid失败，错误码：41008
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:25:44
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:25:55
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502951155</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=http%3a%2f%2feb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:26:08
+获取openid失败，错误码：40163
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:26:22
+获取openid失败，错误码：40163
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:30:24
+获取openid失败，错误码：41008
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:35:10
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:36:46
+<xml>
+                <ToUserName><![CDATA[oZTyM07BSndJcyK9dRx6YgJqko1s]]></ToUserName>
+                <FromUserName><![CDATA[gh_eaf71f0d5f4c]]></FromUserName>
+                <CreateTime>1502951806</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[你好]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:36:47
+系统回复的明文<xml>
+                <ToUserName><![CDATA[oZTyM07BSndJcyK9dRx6YgJqko1s]]></ToUserName>
+                <FromUserName><![CDATA[gh_eaf71f0d5f4c]]></FromUserName>
+                <CreateTime>1502951807</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[好呀，你也好啊]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:41:40
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:41:45
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:42:03
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oZTyM07BSndJcyK9dRx6YgJqko1s]]></ToUserName>
+			                <FromUserName><![CDATA[gh_eaf71f0d5f4c]]></FromUserName>
+                            <CreateTime>1502952123</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[欢迎关注嘻嘻爸爸开发的公众号]]></Title>
+			                <Description><![CDATA[i love you my baby]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[http://119.29.20.29/WebPage/index.html]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:42:05
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:42:10
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:42:17
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:42:23
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:42:43
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:42:50
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:42:56
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:43:02
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:43:12
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oZTyM07BSndJcyK9dRx6YgJqko1s]]></ToUserName>
+			                <FromUserName><![CDATA[gh_eaf71f0d5f4c]]></FromUserName>
+                            <CreateTime>1502952192</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[欢迎关注嘻嘻爸爸开发的公众号]]></Title>
+			                <Description><![CDATA[i love you my baby]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[http://119.29.20.29/WebPage/index.html]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:43:14
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:43:21
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:43:27
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:43:32
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:43:37
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:43:43
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:44:40
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:45:44
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:45:44
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:45:45
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:45:45
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:45:45
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:45:45
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:45:45
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:45:45
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:45:45
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:00
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:00
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:00
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:00
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:00
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:00
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:00
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:01
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:02
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:02
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:02
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:02
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:04
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:30
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:30
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:30
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:32
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:32
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:33
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:33
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:34
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:34
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:48:34
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:51:21
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:40
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:40
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:40
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:40
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:40
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:40
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:40
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:43
+操作超时
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:43
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:43
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:43
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:43
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:43
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:43
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:43
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:43
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:43
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:43
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:43
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:43
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:43
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:43
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:45
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:49
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:54:55
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:55:00
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:55:02
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:55:06
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:55:10
+<xml>
+                <ToUserName><![CDATA[oZTyM07BSndJcyK9dRx6YgJqko1s]]></ToUserName>
+                <FromUserName><![CDATA[gh_eaf71f0d5f4c]]></FromUserName>
+                <CreateTime>1502952910</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[了]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:55:10
+系统回复的明文<xml>
+                <ToUserName><![CDATA[oZTyM07BSndJcyK9dRx6YgJqko1s]]></ToUserName>
+                <FromUserName><![CDATA[gh_eaf71f0d5f4c]]></FromUserName>
+                <CreateTime>1502952910</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[不懂啊！]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 14:55:12
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 15:05:16
+操作超时
+________________________________________________________
+
+日志信息 :
+2017-08-17 15:05:16
+操作超时
+________________________________________________________
+
+日志信息 :
+2017-08-17 15:05:17
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 15:05:17
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 15:05:17
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 15:05:17
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 15:05:17
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 15:05:17
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 15:05:17
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 15:05:17
+系统回复的明文
+________________________________________________________
+
+日志信息 :
+2017-08-17 15:13:34
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 15:13:34
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502954014</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=http%3a%2f%2feb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 15:13:35
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502954015</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=http%3a%2f%2feb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 15:13:35
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502954015</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=http%3a%2f%2feb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 15:34:03
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502955243</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=http%3a%2f%2feb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 15:35:10
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502955310</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=http%3a%2f%2feb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 15:38:28
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502955508</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=http%3a%2f%2feb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 15:46:20
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 16:01:16
+未将对象引用设置到对象的实例。
+________________________________________________________

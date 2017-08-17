@@ -17,20 +17,6 @@ namespace WeiXinApi
     /// </summary>
     public class weixinapi : IHttpHandler
     {
-        //公众号上接口字段
-        string sToken = "key";
-        /// <summary>
-        /// AppId 要与 微信公共平台 上的 AppId 保持一致
-        /// </summary>
-        string sAppId = "wx3fd9b86495ce9609";
-        /// <summary>
-        /// 加密用 
-        /// </summary>
-        string AESKey = "j8XRu1TG0egoKhdKngbGI886R9ooPMIhoUZPOdhp9GL";
-        string GlobalpostXmlStr = string.Empty;
-        string RequestLocation = String.Empty;
-        
-
         public void ProcessRequest(HttpContext context)
         {
             wxmessage wxGlobal = new wxmessage();
@@ -39,29 +25,47 @@ namespace WeiXinApi
             try
             {
                 fuc.MyMenu();
-                Stream stream = context.Request.InputStream;
-                byte[] byteArray = new byte[stream.Length];
-                stream.Read(byteArray, 0, (int)stream.Length);
-                string postXmlStr = System.Text.Encoding.UTF8.GetString(byteArray);
+                string postXmlStr = PostInput();
                 if (!string.IsNullOrEmpty(postXmlStr))
                 {
                     doc.LoadXml(postXmlStr);
                     XmlElement root = doc.DocumentElement;
-                    wxGlobal = fuc.GetWxMessage(root,wxGlobal);
-                    switch (wxGlobal.MsgType) 
-                    {
-                        case "text"://文本
-                            wxGlobal.Content = doc.SelectSingleNode("xml").SelectSingleNode("Content").InnerText;
-                            break;
-                        case "event"://文本
-                            wxGlobal.EventName = doc.SelectSingleNode("xml").SelectSingleNode("Event").InnerText;
-                            wxGlobal.EventKey = doc.SelectSingleNode("xml").SelectSingleNode("EventKey").InnerText;
-                            break;
-                        case "location"://文本
-                            wxGlobal.Location_X = doc.SelectSingleNode("xml").SelectSingleNode("Location_X").InnerText;
-                            wxGlobal.Location_Y = doc.SelectSingleNode("xml").SelectSingleNode("Location_Y").InnerText;
-                            break;
-                    }
+                    wxGlobal = fuc.GetWxMessage(doc);
+                    //switch (wxGlobal.MsgType)
+                    //{
+                    //    case "text"://文本
+                    //        wxGlobal.Content = doc.SelectSingleNode("xml").SelectSingleNode("Content").InnerText;
+                    //        break;
+                    //    case "event"://文本
+                    //        wxGlobal.EventName = doc.SelectSingleNode("xml").SelectSingleNode("Event").InnerText;
+                    //        wxGlobal.EventKey = doc.SelectSingleNode("xml").SelectSingleNode("EventKey").InnerText;
+                    //        wxGlobal.Latitude = doc.SelectSingleNode("xml").SelectSingleNode("Latitude").InnerText;
+                    //        wxGlobal.Longitude = doc.SelectSingleNode("xml").SelectSingleNode("Longitude").InnerText;
+                    //        break;
+                    //    case "LOCATION"://文本
+                    //        wxGlobal.Location_X = doc.SelectSingleNode("xml").SelectSingleNode("Location_X").InnerText;
+                    //        wxGlobal.Location_Y = doc.SelectSingleNode("xml").SelectSingleNode("Location_Y").InnerText;
+                    //        break;
+                    //}
+                    //}///消息加密
+                    //if (!string.IsNullOrWhiteSpace(sAppId))
+                    //{
+                    //    WXBizMsgCrypt wxcpt = new WXBizMsgCrypt(sToken, AESKey, sAppId);
+                    //    string sEncryptMsg = ""; //xml格式的密文
+                    //    string timestamp = context.Request["timestamp"];
+                    //    string nonce = context.Request["nonce"];
+                    //    int ret = wxcpt.EncryptMsg(result, timestamp, nonce, ref sEncryptMsg);
+                    //    if (ret != 0)
+                    //    {
+                    //        LogHelper.WriteLog("加密失败，错误码：" + ret);
+                    //        return;
+                    //    }
+
+                    //    context.Response.Write(sEncryptMsg);
+                    //    context.Response.Flush();
+                    //    LogHelper.WriteLog("系统回复的加密文:" + sEncryptMsg);
+                    //}
+                    
                     string result="";
                     string requestContent = "";
                     //var rootElement = doc.DocumentElement;
@@ -74,7 +78,7 @@ namespace WeiXinApi
                         //获取用户发来的信息
                         switch (wxGlobal.MsgType)
                         {
-                                
+
                             case "text"://文本
                                 requestContent = WeiXinXML.CreateTextMsg(doc, wxGlobal.Content);
                                 LogHelper.WriteLog(requestContent);
@@ -82,7 +86,8 @@ namespace WeiXinApi
                                 break;
                             case "location"://文本
                                 //LogHelper.WriteXMLLog(doc);
-                                result = WeiXinXML.ReArticle(wxGlobal.FromUserName, wxGlobal.ToUserName, "您附近的XXX", "XXXXXXXX", "http://119.29.20.29/image/test.jpg", "http://m.amap.com/around/?locations="+wxGlobal.Location_Y+""+wxGlobal.Location_X+"&keywords=疾控中心&defaultIndex=3&defaultView=map&searchRadius=5000&key=33fe5b1e0fc0023eb1cd28b392d5e70f");
+                                //result = WeiXinXML.ReArticle(wxGlobal.FromUserName, wxGlobal.ToUserName, "您附近的XXX", "XXXXXXXX", "http://119.29.20.29/image/test.jpg", "http://m.amap.com/around/?locations=" + wxGlobal.Location_Y + "" + wxGlobal.Location_X + "&keywords=疾控中心&defaultIndex=3&defaultView=map&searchRadius=5000&key=33fe5b1e0fc0023eb1cd28b392d5e70f");
+                                result = WeiXinXML.ReArticle(wxGlobal.FromUserName, wxGlobal.ToUserName, "您附近的XXX", "XXXXXXXX", "http://119.29.20.29/image/test.jpg", FunctionAll.GetCodeUrl());
                                 break;
                             case "event":
                                 switch (wxGlobal.EventName)
@@ -95,51 +100,56 @@ namespace WeiXinApi
                                     case "CLICK":
 
                                         if (wxGlobal.EventKey == "HELLO")
-                                            result = WeiXinXML.CreateTextMsg(doc, "微医app - 原名 挂号网，用手机挂号，十分方便！更有医生咨询、智能分诊、院外候诊、病历管理等强大功能。\r\n"+
-　　"预约挂号 聚合全国超过900家重点医院的预约挂号资源\r\n"+
+                                            result = WeiXinXML.CreateTextMsg(doc, "微医app - 原名 挂号网，用手机挂号，十分方便！更有医生咨询、智能分诊、院外候诊、病历管理等强大功能。\r\n" +
+  "预约挂号 聚合全国超过900家重点医院的预约挂号资源\r\n" +
   "咨询医生 支持医患之间随时随地图文、语音、视频方式的沟通交流\r\n" +
   "智能分诊 根据分诊自测系统分析疾病类型，提供就诊建议\r\n" +
   "院外候诊 时间自由可控，不再无谓浪费\r\n" +
   "病历管理 病历信息统一管理，个人健康及时监测\r\n" +
   "贴心服务 医疗支付、报告提取、医院地图\r\n" +
   "权威保障 国家卫计委（原卫生部）指定的全国健康咨询及就医指导平台\r\n" +
-　　"[微医] 目前用户量大，有些不足我们正加班加点的努力完善，希望大家用宽容的心给 [微医] 一点好评，给我们一点激励，让 [微医] 和大家的健康诊疗共成长。");
+  "[微医] 目前用户量大，有些不足我们正加班加点的努力完善，希望大家用宽容的心给 [微医] 一点好评，给我们一点激励，让 [微医] 和大家的健康诊疗共成长。");
                                         if (wxGlobal.EventKey == "myprofile")
                                             result = WeiXinXML.CreateTextMsg(doc, "嘻嘻爸爸就是我！");
                                         if (wxGlobal.EventKey == "jkzx")
                                             result = WeiXinXML.ReArticle(wxGlobal.FromUserName, wxGlobal.ToUserName, "点击图片查看您附近的疾控中心", @"测试测试测试测试", "http://119.29.20.29/image/navi.jpg", "http://m.amap.com/around/?locations=&keywords=疾控中心&defaultIndex=3&defaultView=map&searchRadius=5000&key=33fe5b1e0fc0023eb1cd28b392d5e70f");
 
                                         break;
+                                    case "LOCATION": //订阅
+                                        //string city = fuc.GetLocation(wxGlobal.Latitude,wxGlobal.Longitude);
+                                        //result = WeiXinXML.CreateTextMsg(doc,city);
+                                        break;
                                 }
-                                
+
                                 break;
                         }
-                        context.Response.Write(result);
-                        context.Response.Flush();
-                        LogHelper.WriteLog("系统回复的明文"+result);
-                    }///消息加密
-                    if (!string.IsNullOrWhiteSpace(sAppId))
-                    {
-                        WXBizMsgCrypt wxcpt = new WXBizMsgCrypt(sToken, AESKey, sAppId);
-                        string sEncryptMsg = ""; //xml格式的密文
-                        string timestamp = context.Request["timestamp"];
-                        string nonce = context.Request["nonce"];
-                        int ret = wxcpt.EncryptMsg(result, timestamp, nonce, ref sEncryptMsg);
-                        if (ret != 0)
-                        {
-                            LogHelper.WriteLog("加密失败，错误码：" + ret);
-                            return;
-                        }
+                        //if (!string.IsNullOrWhiteSpace(sAppId))  //根据appid解密字符串
+                        //{
 
-                        context.Response.Write(sEncryptMsg);
-                        context.Response.Flush();
-                        LogHelper.WriteLog("系统回复的加密文:" + sEncryptMsg);
+                        //    WXBizMsgCrypt wxcpt = new WXBizMsgCrypt(sToken, AESKey, sAppId);
+                        //    string signature = context.Request["msg_signature"];
+                        //    string timestamp = context.Request["timestamp"];
+                        //    string nonce = context.Request["nonce"];
+                        //    string stmp = "";
+                        //    int ret = wxcpt.DecryptMsg(signature, timestamp, nonce, postXmlStr, ref stmp);
+                        //    if (ret == 0)
+                        //    {
+                        //        doc = new XmlDocument();
+                        //        doc.LoadXml(stmp);
+                        //    }
+                        //}
                     }
+                    
+                    context.Response.Write(result);
+                    context.Response.Flush();
+                    LogHelper.WriteLog("系统回复的明文" + result);
                 }
                 else
                 {
                     valid(context);
+                    return;
                 }
+                
             }
             catch (Exception ex)
             {
@@ -149,14 +159,28 @@ namespace WeiXinApi
         }
         public void valid(HttpContext context)
         {
-            var echostr = context.Request["echoStr"].ToString();
+            var echostr = context.Request["echostr"].ToString();
             if (checkSignature(context) && !string.IsNullOrEmpty(echostr))
             {
                 context.Response.Write(echostr);
                 context.Response.Flush();       //推送...不然微信平台无法验证token
             }
         }
-
+        #region 获取post请求数据
+        /// <summary>
+        /// 获取post请求数据
+        /// </summary>
+        /// <returns></returns>
+        private string PostInput()
+        {
+            string data = "";
+            Stream s = System.Web.HttpContext.Current.Request.InputStream;
+            byte[] b = new byte[s.Length];
+            s.Read(b, 0, (int)s.Length);
+            data= Encoding.UTF8.GetString(b);
+            return data;
+        }
+        #endregion
         /// <summary>
         /// 第一步，公众号开发者验证方法
         /// </summary>

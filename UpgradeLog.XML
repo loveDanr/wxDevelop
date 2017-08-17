@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WeiXinApi">
+</Property><Property Name="解决方案文件" Value="C:\wxdemo\WeiXinApi.sln">
+</Property><Property Name="Date" Value="2017年8月9日">
+</Property><Property Name="Time" Value="9:47">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WeiXinApi.sln" Description="文件已成功备份为 C:\wxdemo\Backup\WeiXinApi.sln">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="WeiXinApi.csproj" Description="项目文件已成功备份为 C:\wxdemo\Backup\WeiXinApi.csproj">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="WeiXinApi.csproj.user" Description="项目用户文件成功备份为 C:\wxdemo\Backup\WeiXinApi.csproj.user">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Model\Access_token.cs" Description="文件已成功备份为 C:\wxdemo\Backup\Model\Access_token.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Model\RequestXML.cs" Description="文件已成功备份为 C:\wxdemo\Backup\Model\RequestXML.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Model\wxmessage.cs" Description="文件已成功备份为 C:\wxdemo\Backup\Model\wxmessage.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" Description="文件已成功备份为 C:\wxdemo\Backup\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" Description="文件已成功备份为 C:\wxdemo\Backup\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" Description="文件已成功备份为 C:\wxdemo\Backup\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Properties\AssemblyInfo.cs" Description="文件已成功备份为 C:\wxdemo\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Util\BasicAPI.cs" Description="文件已成功备份为 C:\wxdemo\Backup\Util\BasicAPI.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Util\Cryptography.cs" Description="文件已成功备份为 C:\wxdemo\Backup\Util\Cryptography.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Util\DynamicJson.cs" Description="文件已成功备份为 C:\wxdemo\Backup\Util\DynamicJson.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Util\FunctionAll.cs" Description="文件已成功备份为 C:\wxdemo\Backup\Util\FunctionAll.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Util\HttpUtility.cs" Description="文件已成功备份为 C:\wxdemo\Backup\Util\HttpUtility.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Util\JSAPI.cs" Description="文件已成功备份为 C:\wxdemo\Backup\Util\JSAPI.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Util\JsonHelper.cs" Description="文件已成功备份为 C:\wxdemo\Backup\Util\JsonHelper.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Util\LogHelper.cs" Description="文件已成功备份为 C:\wxdemo\Backup\Util\LogHelper.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Util\MsgCrypt.cs" Description="文件已成功备份为 C:\wxdemo\Backup\Util\MsgCrypt.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Util\TokenHelper.cs" Description="文件已成功备份为 C:\wxdemo\Backup\Util\TokenHelper.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Util\TuLing.cs" Description="文件已成功备份为 C:\wxdemo\Backup\Util\TuLing.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Util\Util.cs" Description="文件已成功备份为 C:\wxdemo\Backup\Util\Util.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Util\WeiXinXML.cs" Description="文件已成功备份为 C:\wxdemo\Backup\Util\WeiXinXML.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Util\WXBizMsgCrypt.cs" Description="文件已成功备份为 C:\wxdemo\Backup\Util\WXBizMsgCrypt.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="weixinapi.ashx.cs" Description="文件已成功备份为 C:\wxdemo\Backup\weixinapi.ashx.cs">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Properties\PublishProfiles\aaa.pubxml" Description="文件已成功备份为 C:\wxdemo\Backup\Properties\PublishProfiles\aaa.pubxml">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Web.Debug.config" Description="文件已成功备份为 C:\wxdemo\Backup\Web.Debug.config">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Web.Release.config" Description="文件已成功备份为 C:\wxdemo\Backup\Web.Release.config">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="bin\WeiXinApi.dll" Description="文件已成功备份为 C:\wxdemo\Backup\bin\WeiXinApi.dll">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="bin\WeiXinApi.pdb" Description="文件已成功备份为 C:\wxdemo\Backup\bin\WeiXinApi.pdb">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="weixinapi.ashx" Description="文件已成功备份为 C:\wxdemo\Backup\weixinapi.ashx">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="Web.config" Description="文件已成功备份为 C:\wxdemo\Backup\Web.config">
+</Event><Event ErrorLevel="0" Project="WeiXinApi" Source="WeiXinApi.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="WeiXinApi" Source="WeiXinApi.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="" Source="WeiXinApi.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="WeiXinApi.sln" Description="Converted">
+</Event></UpgradeLog>

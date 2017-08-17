@@ -29,7 +29,6 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -38,7 +37,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
@@ -46,10 +44,6 @@
       <HintPath>bin\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Newtonsoft.Json.Net20, Version=4.0.2.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Newtonsoft.Json.Net20.dll</HintPath>
-    </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Net" />
     <Reference Include="System.Net.Http" />
@@ -79,9 +73,6 @@
     </None>
     <Content Include="bin\WeiXinApi.dll" />
     <Content Include="bin\WeiXinApi.pdb" />
-    <Content Include="WebUI\AllListPage.aspx" />
-    <Content Include="WebUI\css\style.css" />
-    <Content Include="WebUI\js\jquery.js" />
     <Content Include="weixinapi.ashx" />
   </ItemGroup>
   <ItemGroup>
@@ -89,7 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Access_token.cs" />
-    <Compile Include="Model\AppIDCode.cs" />
+    <Compile Include="Model\RequestXML.cs" />
     <Compile Include="Model\wxmessage.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
@@ -99,7 +90,6 @@
     <Compile Include="Util\Cryptography.cs" />
     <Compile Include="Util\DynamicJson.cs" />
     <Compile Include="Util\FunctionAll.cs" />
-    <Compile Include="Util\HttpClientHelper.cs" />
     <Compile Include="Util\HttpUtility.cs" />
     <Compile Include="Util\JSAPI.cs" />
     <Compile Include="Util\JsonHelper.cs" />
@@ -110,19 +100,9 @@
     <Compile Include="Util\Util.cs" />
     <Compile Include="Util\WeiXinXML.cs" />
     <Compile Include="Util\WXBizMsgCrypt.cs" />
-    <Compile Include="WebUI\AllListPage.aspx.cs">
-      <DependentUpon>AllListPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebUI\AllListPage.aspx.designer.cs">
-      <DependentUpon>AllListPage.aspx</DependentUpon>
-    </Compile>
     <Compile Include="weixinapi.ashx.cs">
       <DependentUpon>weixinapi.ashx</DependentUpon>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Bll\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -135,13 +115,13 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>9120</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost</IISUrl>
+          <IISUrl>http://localhost:9120</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
-          <UseCustomServer>False</UseCustomServer>
+          <UseCustomServer>True</UseCustomServer>
           <CustomServerUrl>HTTP://192.168.94.131</CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
