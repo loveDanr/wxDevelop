@@ -38,6 +38,62 @@ namespace WeiXinApi.Util
                 LogHelper.WriteLog(ex.Message);
             }
         }
+
+        /// <summary>
+        /// 写txt
+        /// </summary>
+        /// <param name="errorMessage"></param>
+        public static void WriteTXT(string Message)
+        {
+            try
+            {
+                string path = "~/" + "accessToken"+ ".txt";
+                if (!File.Exists(System.Web.HttpContext.Current.Server.MapPath(path)))
+                {
+                    File.Create(System.Web.HttpContext.Current.Server.MapPath(path)).Close();
+                }
+                FileStream fs = new FileStream(System.Web.HttpContext.Current.Server.MapPath(path), FileMode.Open, FileAccess.Write);
+                fs.SetLength(0);
+                fs.Close();
+                using (StreamWriter w = File.AppendText(System.Web.HttpContext.Current.Server.MapPath(path)))
+                {
+                    w.WriteLine(Message);
+                    w.Flush();
+                    w.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                LogHelper.WriteLog(ex.Message);
+            }
+        }
+        /// <summary>
+        /// 读取txt
+        /// </summary>
+        /// <param name="errorMessage"></param>
+        public  static string ReadTXT()
+        {
+            string str = "";
+            try
+            {
+               string path = "~/" + "accessToken" + ".txt";
+                if (!File.Exists(System.Web.HttpContext.Current.Server.MapPath(path)))
+                {
+                    File.Create(System.Web.HttpContext.Current.Server.MapPath(path)).Close();
+                }
+                using (StreamReader w =new StreamReader(System.Web.HttpContext.Current.Server.MapPath(path)))
+                {
+                  str = w.ReadLine();
+                  w.Close();
+                }
+                
+            }
+            catch (Exception ex)
+            {
+                LogHelper.WriteLog(ex.Message);
+            }
+            return str;
+        }
         /// <summary>
         /// 写xml日志
         /// </summary>

@@ -9,7 +9,13 @@ using WeiXinApi.Util;
 using WeiXinApi.Model;
 using System.Text;
 using System.Web.Script.Serialization;
+using System.Xml.Serialization;
 using System.Net.Http;
+using System.Web.UI;
+using System.Configuration;
+using System.Web.Security;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace WeiXinApi.Util
 {
@@ -20,6 +26,7 @@ namespace WeiXinApi.Util
     /// </summary>
     public class FunctionAll
     {
+        #region 获取post请求数据
         /// <summary>
         /// 获取post请求数据
         /// </summary>
@@ -31,8 +38,10 @@ namespace WeiXinApi.Util
             s.Read(b, 0, (int)s.Length);
             return Encoding.UTF8.GetString(b);
         }
+        #endregion
+        #region Post/Get提交调用抓取
         /// <summary>
-        /// 
+        /// 给微信消息赋值
         /// </summary>
         /// <param name="root"></param>
         /// <param name="model"></param>
@@ -165,6 +174,8 @@ namespace WeiXinApi.Util
 
 
         }
+        #endregion
+        #region 可以通用，获取菜单
         /// <summary>
         /// 可以通用，获取菜单
         /// </summary>
@@ -210,6 +221,8 @@ namespace WeiXinApi.Util
                 return string.Empty;
             }
         }
+        #endregion
+        #region 自定义菜单方法
         /// <summary>
         /// 菜单项目
         /// </summary>
@@ -229,12 +242,12 @@ namespace WeiXinApi.Util
            ""key"":""myprofile""
       },
       {
-           ""name"":""二级菜单"",
+           ""name"":""测试菜单"",
            ""sub_button"":[
             {
                ""type"":""view"",
-               ""name"":""预约挂号"",
-                ""url"":""http://eb7dvc.natappfree.cc/WebUI/OAuthRedirectUri.aspx""
+               ""name"":""全程陪诊"",
+                ""url"":""http://d73ub9.natappfree.cc/WebUI/Index.aspx""
             },
             {
                ""type"":""click"",
@@ -251,17 +264,19 @@ namespace WeiXinApi.Util
             model = GetAccess_token();
             GetPage("https://api.weixin.qq.com/cgi-bin/menu/create?access_token=" + model.access_token + "", weixin1);
         }
+        #endregion
+        #region 跳转打开页面授权登录
         /// <summary>
         /// 打开页面
         /// </summary>
         /// <param name="Appid"></param>
         /// <param name="redirect_uri"></param>
         /// <returns></returns>
-        public static string GetCodeUrl()
+        public static string GetCodeUrl(string redirect_uri)
         {
-            string redirect_uri = System.Web.HttpUtility.UrlEncode("http://eb7dvc.natappfree.cc/WebUI/AllListPage.aspx");
-            return string.Format("https://open.weixin.qq.com/connect/oauth2/authorize?appid={0}&redirect_uri={1}&response_type=code&scope={2}&state=STATE#wechat_redirect", AppIDCode.Appid, redirect_uri, "snsapi_userinfo");
+            return string.Format("https://open.weixin.qq.com/connect/oauth2/authorize?appid=" + AppIDCode.Appid + "&redirect_uri=" + redirect_uri + "&response_type=code&scope=snsapi_userinfo&state=123#wechat_redirect");
         }
+        #endregion
         #region Post/Get提交调用抓取
         /// <summary>
         /// Post/get 提交调用抓取
@@ -316,47 +331,13 @@ namespace WeiXinApi.Util
             }
         }
         #endregion Post/Get提交调用抓取
-        ///// <summary>
-        ///// 根据当前日期 判断Access_Token 是否超期  如果超期返回新的Access_Token   否则返回之前的Access_Token
-        ///// </summary>
-        ///// <param name="datetime"></param>
-        ///// <returns></returns>
-        //public static string IsExistAccess_Token()
-        //{
-
-        //    string Token = string.Empty;
-        //    DateTime YouXRQ;
-        //    // 读取XML文件中的数据，并显示出来 ，注意文件路径
-        //    ;
-
-        //    StreamReader str = new StreamReader(filepath, System.Text.Encoding.UTF8);
-        //    XmlDocument xml = new XmlDocument();
-        //    xml.Load(str);
-        //    str.Close();
-        //    str.Dispose();
-        //    Token = xml.SelectSingleNode("xml").SelectSingleNode("Access_Token").InnerText;
-        //    YouXRQ = Convert.ToDateTime(xml.SelectSingleNode("xml").SelectSingleNode("Access_YouXRQ").InnerText);
-
-        //    if (DateTime.Now > YouXRQ)
-        //    {
-        //        DateTime _youxrq = DateTime.Now;
-        //        Access_token mode = GetAccess_token();
-        //        xml.SelectSingleNode("xml").SelectSingleNode("Access_Token").InnerText = mode.access_token;
-        //        _youxrq = _youxrq.AddSeconds(int.Parse(mode.expires_in));
-        //        xml.SelectSingleNode("xml").SelectSingleNode("Access_YouXRQ").InnerText = _youxrq.ToString();
-        //        xml.Save(filepath);
-        //        Token = mode.access_token;
-        //    }
-        //    return Token;
-        //}
+        #region 获取token
         /// <summary>
         /// 获取token
         /// </summary>
         /// <returns></returns>
         public static Access_token GetAccess_token()
         {
-            //string appid = "wx3fd9b86495ce9609";
-            //string secret = "6f6a79781e36f7c69e48533f209bc226";
             string strUrl = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=" + AppIDCode.Appid+ "&secret=" + AppIDCode.Appsecret;
             Access_token mode = new Access_token();
 
@@ -379,8 +360,67 @@ namespace WeiXinApi.Util
             }
             return mode;
         }
+        #endregion 
+        #region 用cookie存储登录用户信息的方法
+        /// <summary>
+        /// 用户登陆成功后，发放表单cookie验证票据并记录用户的相关信息
+        /// </summary>
+        /// <typeparam name="T">泛型</typeparam>
+        /// <param name="userName">与票证关联的用户名</param>
+        /// <param name="Page">页面对象</param>
+        /// <param name="expiration">FormsAuthenticationTicket过期时间</param> 
+        /// <param name="userInfo">要保存在cookie中用户对象</param>
+        public static void UserLoginSetCookie<T>(string userName, Page page, DateTime expiration, T userInfo)
+        {
+            Configuration conn = System.Web.Configuration.WebConfigurationManager.OpenWebConfiguration("~/web.config");
+            System.Web.Configuration.AuthenticationSection section = (System.Web.Configuration.AuthenticationSection)conn.SectionGroups.Get("system.web").Sections.Get("authentication");
+            expiration = expiration.AddMinutes(section.Forms.Timeout.TotalMinutes);
 
-        
+            //将对象序列化成字符串
+            string strUser = Serialize<T>(userInfo);
+
+            // 设置票据Ticket信息
+            FormsAuthenticationTicket ticket = new FormsAuthenticationTicket(1, userName, DateTime.Now, expiration, false, strUser);
+
+            string strTicket = FormsAuthentication.Encrypt(ticket);// 加密票据
+
+            HttpCookie cookie = new HttpCookie(FormsAuthentication.FormsCookieName, strTicket);// 使用新userdata保存cookie
+            //cookie.Expires = ticket.Expiration;//将票据的过期时间和Cookie的过期时间同步，避免因两者的不同所产生的矛盾
+
+
+            page.Response.Cookies.Add(cookie);
+        }
+        #endregion
+        #region 序列化对象方法
+        /// <summary>
+        /// 序列化对象
+        /// </summary>
+        /// <typeparam name="T">泛型</typeparam>
+        /// <param name="t">泛型对象</param>
+        /// <returns>对象序列化后变成的字符串</returns>
+        public static string Serialize<T>(T t)
+        {
+            try
+            {
+                IFormatter formatter = new BinaryFormatter();
+                using (MemoryStream stream = new MemoryStream())
+                {
+                    formatter.Serialize(stream, t);
+                    stream.Position = 0;
+                    byte[] buffer = new byte[stream.Length];
+                    stream.Read(buffer, 0, buffer.Length);
+                    stream.Flush();
+                    stream.Close();
+                    return Convert.ToBase64String(buffer);
+                }
+            }
+            catch (Exception ex)
+            {
+                //Log4NET.Log4Net.Error(ex.ToString(), ex);
+                throw new Exception("序列化失败" + ex.Message);
+            }
+        }
+        #endregion
 
     }
 }

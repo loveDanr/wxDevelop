@@ -10,13 +10,18 @@ using WeiXinApi.Util;
 using WeiXinApi.Model;
 using System.Net;
 using System.Web.UI;
+using System.Web.SessionState;
+using System.Web.Script.Serialization;
 namespace WeiXinApi
 {
+    
     /// <summary>
     /// weixinapi 的摘要说明
     /// </summary>
-    public class weixinapi : IHttpHandler
+    public class weixinapi : IHttpHandler, IRequiresSessionState
     {
+        public static string Lat = "";
+        public static string Lon = "";
         public void ProcessRequest(HttpContext context)
         {
             wxmessage wxGlobal = new wxmessage();
@@ -87,7 +92,7 @@ namespace WeiXinApi
                             case "location"://文本
                                 //LogHelper.WriteXMLLog(doc);
                                 //result = WeiXinXML.ReArticle(wxGlobal.FromUserName, wxGlobal.ToUserName, "您附近的XXX", "XXXXXXXX", "http://119.29.20.29/image/test.jpg", "http://m.amap.com/around/?locations=" + wxGlobal.Location_Y + "" + wxGlobal.Location_X + "&keywords=疾控中心&defaultIndex=3&defaultView=map&searchRadius=5000&key=33fe5b1e0fc0023eb1cd28b392d5e70f");
-                                result = WeiXinXML.ReArticle(wxGlobal.FromUserName, wxGlobal.ToUserName, "您附近的XXX", "XXXXXXXX", "http://119.29.20.29/image/test.jpg", FunctionAll.GetCodeUrl());
+                                result = WeiXinXML.ReArticle(wxGlobal.FromUserName, wxGlobal.ToUserName, "您附近的XXX", "XXXXXXXX", "http://119.29.20.29/image/test.jpg", FunctionAll.GetCodeUrl(null));
                                 break;
                             case "event":
                                 switch (wxGlobal.EventName)
@@ -110,15 +115,27 @@ namespace WeiXinApi
   "权威保障 国家卫计委（原卫生部）指定的全国健康咨询及就医指导平台\r\n" +
   "[微医] 目前用户量大，有些不足我们正加班加点的努力完善，希望大家用宽容的心给 [微医] 一点好评，给我们一点激励，让 [微医] 和大家的健康诊疗共成长。");
                                         if (wxGlobal.EventKey == "myprofile")
-                                            result = WeiXinXML.CreateTextMsg(doc, "嘻嘻爸爸就是我！");
+                                            result = WeiXinXML.CreateTextMsg(doc, "功能测试中，敬请期待！");
                                         if (wxGlobal.EventKey == "jkzx")
                                             result = WeiXinXML.ReArticle(wxGlobal.FromUserName, wxGlobal.ToUserName, "点击图片查看您附近的疾控中心", @"测试测试测试测试", "http://119.29.20.29/image/navi.jpg", "http://m.amap.com/around/?locations=&keywords=疾控中心&defaultIndex=3&defaultView=map&searchRadius=5000&key=33fe5b1e0fc0023eb1cd28b392d5e70f");
 
                                         break;
-                                    case "LOCATION": //订阅
+                                    case "LOCATION": //获取地理位置
+                                        Lat = wxGlobal.Latitude;Lon = wxGlobal.Longitude;
                                         //string city = fuc.GetLocation(wxGlobal.Latitude,wxGlobal.Longitude);
                                         //result = WeiXinXML.CreateTextMsg(doc,city);
+                                        //context.Session["wxGlobal.Latitude"] = wxGlobal.Latitude;
+                                        //context.Session["wxGlobal.Longitude"] = wxGlobal.Longitude;
+                                        //string wx = GetLocation(wxGlobal.Latitude, wxGlobal.Longitude);
+                                        //HttpCookie Latitude = new HttpCookie("Latitude");
+                                        //Latitude.Value = wxGlobal.Latitude;
+                                        //HttpCookie Longitude = new HttpCookie("Longitude");
+                                        //Longitude.Value = wxGlobal.Latitude;
+                                        //Latitude.Expires = DateTime.Now.AddDays(1);   Longitude.Expires = DateTime.Now.AddDays(1);
+                                        //context.Response.Cookies.Add(Latitude);  context.Response.Cookies.Add(Longitude); 
+                                        //wxmessage xx = GetAddress(wxGlobal.Latitude,wxGlobal.Longitude);
                                         break;
+                                        
                                 }
 
                                 break;
@@ -157,6 +174,7 @@ namespace WeiXinApi
 
             }
         }
+
         public void valid(HttpContext context)
         {
             var echostr = context.Request["echostr"].ToString();
@@ -205,6 +223,36 @@ namespace WeiXinApi
             {
                 return false;
             }
+        }
+        /// <summary>
+        /// 获取token
+        /// </summary>
+        /// <returns></returns>
+        public static wxmessage GetAddress(string lat,string lon)
+        {
+            //string appid = "wx3fd9b86495ce9609";
+            //string secret = "6f6a79781e36f7c69e48533f209bc226";
+            string strUrl = "http://api.map.baidu.com/geoconv/v1/?coords="+lat+","+lon+"&from=1&to=5&ak=MGIAm9Vi0b7bKAanmtGluzTxUryGef9K";
+            wxmessage mode = new wxmessage();
+
+            HttpWebRequest req = (HttpWebRequest)HttpWebRequest.Create(strUrl);
+
+            req.Method = "GET";
+            using (WebResponse wr = req.GetResponse())
+            {
+                HttpWebResponse myResponse = (HttpWebResponse)req.GetResponse();
+
+                StreamReader reader = new StreamReader(myResponse.GetResponseStream(), Encoding.UTF8);
+
+                string content = reader.ReadToEnd();
+                //Response.Write(content);
+                //在这里对Access_token 赋值
+                wxmessage token = new wxmessage();
+                token = JsonHelper.ParseFromJson<wxmessage>(content);
+                //mode.Latitude = token.Location_X;
+                //mode.expires_in = token.expires_in;
+            }
+            return mode;
         }
 
         public bool IsReusable

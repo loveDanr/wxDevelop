@@ -1538,3 +1538,444 @@ ________________________________________________________
 2017-08-17 16:01:16
 未将对象引用设置到对象的实例。
 ________________________________________________________
+
+日志信息 :
+2017-08-17 17:02:08
+系统回复的明文<xml>
+                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                <CreateTime>1502960527</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[微医app - 原名 挂号网，用手机挂号，十分方便！更有医生咨询、智能分诊、院外候诊、病历管理等强大功能。
+预约挂号 聚合全国超过900家重点医院的预约挂号资源
+咨询医生 支持医患之间随时随地图文、语音、视频方式的沟通交流
+智能分诊 根据分诊自测系统分析疾病类型，提供就诊建议
+院外候诊 时间自由可控，不再无谓浪费
+病历管理 病历信息统一管理，个人健康及时监测
+贴心服务 医疗支付、报告提取、医院地图
+权威保障 国家卫计委（原卫生部）指定的全国健康咨询及就医指导平台
+[微医] 目前用户量大，有些不足我们正加班加点的努力完善，希望大家用宽容的心给 [微医] 一点好评，给我们一点激励，让 [微医] 和大家的健康诊疗共成长。]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 17:02:08
+系统回复的明文<xml>
+                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                <CreateTime>1502960527</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[微医app - 原名 挂号网，用手机挂号，十分方便！更有医生咨询、智能分诊、院外候诊、病历管理等强大功能。
+预约挂号 聚合全国超过900家重点医院的预约挂号资源
+咨询医生 支持医患之间随时随地图文、语音、视频方式的沟通交流
+智能分诊 根据分诊自测系统分析疾病类型，提供就诊建议
+院外候诊 时间自由可控，不再无谓浪费
+病历管理 病历信息统一管理，个人健康及时监测
+贴心服务 医疗支付、报告提取、医院地图
+权威保障 国家卫计委（原卫生部）指定的全国健康咨询及就医指导平台
+[微医] 目前用户量大，有些不足我们正加班加点的努力完善，希望大家用宽容的心给 [微医] 一点好评，给我们一点激励，让 [微医] 和大家的健康诊疗共成长。]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 17:02:08
+系统回复的明文<xml>
+                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                <CreateTime>1502960527</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[微医app - 原名 挂号网，用手机挂号，十分方便！更有医生咨询、智能分诊、院外候诊、病历管理等强大功能。
+预约挂号 聚合全国超过900家重点医院的预约挂号资源
+咨询医生 支持医患之间随时随地图文、语音、视频方式的沟通交流
+智能分诊 根据分诊自测系统分析疾病类型，提供就诊建议
+院外候诊 时间自由可控，不再无谓浪费
+病历管理 病历信息统一管理，个人健康及时监测
+贴心服务 医疗支付、报告提取、医院地图
+权威保障 国家卫计委（原卫生部）指定的全国健康咨询及就医指导平台
+[微医] 目前用户量大，有些不足我们正加班加点的努力完善，希望大家用宽容的心给 [微医] 一点好评，给我们一点激励，让 [微医] 和大家的健康诊疗共成长。]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 17:26:43
+系统回复的明文<xml>
+                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                <CreateTime>1502961999</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[微医app - 原名 挂号网，用手机挂号，十分方便！更有医生咨询、智能分诊、院外候诊、病历管理等强大功能。
+预约挂号 聚合全国超过900家重点医院的预约挂号资源
+咨询医生 支持医患之间随时随地图文、语音、视频方式的沟通交流
+智能分诊 根据分诊自测系统分析疾病类型，提供就诊建议
+院外候诊 时间自由可控，不再无谓浪费
+病历管理 病历信息统一管理，个人健康及时监测
+贴心服务 医疗支付、报告提取、医院地图
+权威保障 国家卫计委（原卫生部）指定的全国健康咨询及就医指导平台
+[微医] 目前用户量大，有些不足我们正加班加点的努力完善，希望大家用宽容的心给 [微医] 一点好评，给我们一点激励，让 [微医] 和大家的健康诊疗共成长。]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 17:26:43
+文件“C:\wxdemo\Log\2017-08-17.txt”正由另一进程使用，因此该进程无法访问此文件。
+________________________________________________________
+
+日志信息 :
+2017-08-17 17:26:43
+文件“C:\wxdemo\Log\2017-08-17.txt”正由另一进程使用，因此该进程无法访问此文件。
+________________________________________________________
+
+日志信息 :
+2017-08-17 17:27:55
+系统回复的明文<xml>
+                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                <CreateTime>1502962075</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[微医app - 原名 挂号网，用手机挂号，十分方便！更有医生咨询、智能分诊、院外候诊、病历管理等强大功能。
+预约挂号 聚合全国超过900家重点医院的预约挂号资源
+咨询医生 支持医患之间随时随地图文、语音、视频方式的沟通交流
+智能分诊 根据分诊自测系统分析疾病类型，提供就诊建议
+院外候诊 时间自由可控，不再无谓浪费
+病历管理 病历信息统一管理，个人健康及时监测
+贴心服务 医疗支付、报告提取、医院地图
+权威保障 国家卫计委（原卫生部）指定的全国健康咨询及就医指导平台
+[微医] 目前用户量大，有些不足我们正加班加点的努力完善，希望大家用宽容的心给 [微医] 一点好评，给我们一点激励，让 [微医] 和大家的健康诊疗共成长。]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 17:27:58
+系统回复的明文<xml>
+                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                <CreateTime>1502962078</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[嘻嘻爸爸就是我！]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 22:49:41
+系统回复的明文<xml>
+                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                <CreateTime>1502981378</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[微医app - 原名 挂号网，用手机挂号，十分方便！更有医生咨询、智能分诊、院外候诊、病历管理等强大功能。
+预约挂号 聚合全国超过900家重点医院的预约挂号资源
+咨询医生 支持医患之间随时随地图文、语音、视频方式的沟通交流
+智能分诊 根据分诊自测系统分析疾病类型，提供就诊建议
+院外候诊 时间自由可控，不再无谓浪费
+病历管理 病历信息统一管理，个人健康及时监测
+贴心服务 医疗支付、报告提取、医院地图
+权威保障 国家卫计委（原卫生部）指定的全国健康咨询及就医指导平台
+[微医] 目前用户量大，有些不足我们正加班加点的努力完善，希望大家用宽容的心给 [微医] 一点好评，给我们一点激励，让 [微医] 和大家的健康诊疗共成长。]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 22:49:42
+文件“C:\wxdemo\Log\2017-08-17.txt”正由另一进程使用，因此该进程无法访问此文件。
+________________________________________________________
+
+日志信息 :
+2017-08-17 22:49:42
+文件“C:\wxdemo\Log\2017-08-17.txt”正由另一进程使用，因此该进程无法访问此文件。
+________________________________________________________
+
+日志信息 :
+2017-08-17 22:56:09
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 22:56:39
+系统回复的明文<xml>
+                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                <CreateTime>1502981799</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[微医app - 原名 挂号网，用手机挂号，十分方便！更有医生咨询、智能分诊、院外候诊、病历管理等强大功能。
+预约挂号 聚合全国超过900家重点医院的预约挂号资源
+咨询医生 支持医患之间随时随地图文、语音、视频方式的沟通交流
+智能分诊 根据分诊自测系统分析疾病类型，提供就诊建议
+院外候诊 时间自由可控，不再无谓浪费
+病历管理 病历信息统一管理，个人健康及时监测
+贴心服务 医疗支付、报告提取、医院地图
+权威保障 国家卫计委（原卫生部）指定的全国健康咨询及就医指导平台
+[微医] 目前用户量大，有些不足我们正加班加点的努力完善，希望大家用宽容的心给 [微医] 一点好评，给我们一点激励，让 [微医] 和大家的健康诊疗共成长。]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 22:56:39
+系统回复的明文<xml>
+                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                <CreateTime>1502981799</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[微医app - 原名 挂号网，用手机挂号，十分方便！更有医生咨询、智能分诊、院外候诊、病历管理等强大功能。
+预约挂号 聚合全国超过900家重点医院的预约挂号资源
+咨询医生 支持医患之间随时随地图文、语音、视频方式的沟通交流
+智能分诊 根据分诊自测系统分析疾病类型，提供就诊建议
+院外候诊 时间自由可控，不再无谓浪费
+病历管理 病历信息统一管理，个人健康及时监测
+贴心服务 医疗支付、报告提取、医院地图
+权威保障 国家卫计委（原卫生部）指定的全国健康咨询及就医指导平台
+[微医] 目前用户量大，有些不足我们正加班加点的努力完善，希望大家用宽容的心给 [微医] 一点好评，给我们一点激励，让 [微医] 和大家的健康诊疗共成长。]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 22:56:40
+系统回复的明文<xml>
+                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                <CreateTime>1502981800</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[微医app - 原名 挂号网，用手机挂号，十分方便！更有医生咨询、智能分诊、院外候诊、病历管理等强大功能。
+预约挂号 聚合全国超过900家重点医院的预约挂号资源
+咨询医生 支持医患之间随时随地图文、语音、视频方式的沟通交流
+智能分诊 根据分诊自测系统分析疾病类型，提供就诊建议
+院外候诊 时间自由可控，不再无谓浪费
+病历管理 病历信息统一管理，个人健康及时监测
+贴心服务 医疗支付、报告提取、医院地图
+权威保障 国家卫计委（原卫生部）指定的全国健康咨询及就医指导平台
+[微医] 目前用户量大，有些不足我们正加班加点的努力完善，希望大家用宽容的心给 [微医] 一点好评，给我们一点激励，让 [微医] 和大家的健康诊疗共成长。]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 22:56:42
+系统回复的明文<xml>
+                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                <CreateTime>1502981802</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[嘻嘻爸爸就是我！]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 22:56:45
+系统回复的明文<xml>
+                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                <CreateTime>1502981805</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[嘻嘻爸爸就是我！]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 22:56:50
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502981810</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[点击图片查看您附近的疾控中心]]></Title>
+			                <Description><![CDATA[测试测试测试测试]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/navi.jpg]]></PicUrl>
+			                <Url><![CDATA[http://m.amap.com/around/?locations=&keywords=疾控中心&defaultIndex=3&defaultView=map&searchRadius=5000&key=33fe5b1e0fc0023eb1cd28b392d5e70f]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 22:57:14
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502981834</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=http%3a%2f%2feb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 22:58:52
+系统回复的明文<xml>
+                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                <CreateTime>1502981932</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[嘻嘻爸爸就是我！]]></Content>
+                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 22:59:07
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502981947</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[点击图片查看您附近的疾控中心]]></Title>
+			                <Description><![CDATA[测试测试测试测试]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/navi.jpg]]></PicUrl>
+			                <Url><![CDATA[http://m.amap.com/around/?locations=&keywords=疾控中心&defaultIndex=3&defaultView=map&searchRadius=5000&key=33fe5b1e0fc0023eb1cd28b392d5e70f]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 23:03:32
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 23:03:32
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502982212</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=http%3a%2f%2feb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 23:17:54
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502983073</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=http%3a%2f%2feb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 23:17:54
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502983073</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=http%3a%2f%2feb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 23:17:54
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 23:25:47
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 23:25:52
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502983552</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=http%3a%2f%2feb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 23:26:21
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 23:32:05
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 23:32:12
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502983932</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=http%3a%2f%2feb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
+
+日志信息 :
+2017-08-17 23:34:13
+未将对象引用设置到对象的实例。
+________________________________________________________
+
+日志信息 :
+2017-08-17 23:34:21
+系统回复的明文<xml>
+			                <ToUserName><![CDATA[oyhzV0sdSEGX3Xnk6i5kTDWMIoVY]]></ToUserName>
+			                <FromUserName><![CDATA[gh_45c486d4afb1]]></FromUserName>
+                            <CreateTime>1502984061</CreateTime>
+                            <MsgType><![CDATA[news]]></MsgType>
+			                <Content><![CDATA[]]></Content>
+			                <ArticleCount>1</ArticleCount>
+			                <Articles>
+                            <item><Title><![CDATA[您附近的XXX]]></Title>
+			                <Description><![CDATA[XXXXXXXX]]></Description>
+			                <PicUrl><![CDATA[http://119.29.20.29/image/test.jpg]]></PicUrl>
+			                <Url><![CDATA[https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3fd9b86495ce9609&redirect_uri=http%3a%2f%2feb7dvc.natappfree.cc%2fWebUI%2fAllListPage.aspx&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect]]></Url></item>
+                            </Articles>
+			                <FuncFlag>0</FuncFlag>
+			                </xml>
+________________________________________________________
