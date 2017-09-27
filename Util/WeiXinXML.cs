@@ -41,10 +41,13 @@ namespace WeiXinApi.Util
         {
             string fromUser = GetFromXML(xmlDoc, "FromUserName");
             string toUser = GetFromXML(xmlDoc, "ToUserName");
-            string Title = "欢迎关注嘻嘻爸爸开发的公众号";
-            string Description = "i love you my baby";
-            string PicUrl = "http://119.29.20.29/image/test.jpg";
-            string Url = "http://119.29.20.29/WebPage/index.html";
+            string Title = "欢迎关注我的公众号";
+            string Description = "欢迎";
+            //string PicUrl = "http://119.29.20.29/image/42.jpg";
+            //string Url = "http://119.29.20.29/WebPage/index.html";
+
+            string PicUrl = "http://rnnv9a.natappfree.cc/image/42.jpg";
+            string Url = "http://rnnv9a.natappfree.cc/WebPage/index.html";
             string result = WeiXinXML.ReArticle(fromUser, toUser, Title, Description, PicUrl, Url);
             return result;
         }

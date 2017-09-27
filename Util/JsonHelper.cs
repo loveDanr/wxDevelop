@@ -12,9 +12,10 @@ using System.Runtime.Serialization.Json;
 using System.Web.Script.Serialization;
 using System.Xml;
 using System.Net;
+using Newtonsoft.Json;
 
 
-public class JsonHelper
+public static class JsonHelper
 {
     /// <summary>
     /// 生成Json格式
@@ -151,4 +152,21 @@ public class JsonHelper
             node.AppendChild(text);
         }
     }
-}
+        public static string SerializeObject(this object obj)
+        {
+            return JsonConvert.SerializeObject(obj, Newtonsoft.Json.Formatting.Indented, new JsonSerializerSettings
+            {
+                ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+            });
+        }
+
+        public static T DeserializeObject<T>(this string data)
+        {
+            return JsonConvert.DeserializeObject<T>(data, new JsonSerializerSettings
+            {
+                ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+            });
+        }
+    }
+    
+    

@@ -16,10 +16,17 @@ namespace WeiXinApi.Model
     /// </summary>
     public class AppIDCode
     {
+        //private static string appid = "wx3fd9b86495ce9609";wx4de79a1164923ee3
+        //毛成文的测试号
+        //private static string appid = "wx862595e740f89f0b";
+        //private static string appsecret = "490f37512cdd2e46ae0f6d6d4c579247";
+
+        //海口互联网医院公众号
         private static string appid = "wx3fd9b86495ce9609";
         private static string appsecret = "6f6a79781e36f7c69e48533f209bc226";
         private static string aesKey = "j8XRu1TG0egoKhdKngbGI886R9ooPMIhoUZPOdhp9GL";
         private static string key = "key";
+
         /// <summary>
         /// 验证时用的key
         /// </summary>

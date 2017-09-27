@@ -25,3 +25,17 @@ C:\wxdemo\bin\WeiXinApi.pdb
 C:\wxdemo\obj\Debug\ResolveAssemblyReference.cache
 C:\wxdemo\obj\Debug\WeiXinApi.dll
 C:\wxdemo\obj\Debug\WeiXinApi.pdb
+F:\weixin\wxdemo\wxdemo\bin\WeiXinApi.dll
+F:\weixin\wxdemo\wxdemo\bin\WeiXinApi.pdb
+F:\weixin\wxdemo\wxdemo\obj\Debug\WeiXinApi.dll
+F:\weixin\wxdemo\wxdemo\obj\Debug\WeiXinApi.pdb
+F:\weixin\wxdemo\bin\WeiXinApi.dll
+F:\weixin\wxdemo\bin\WeiXinApi.pdb
+F:\weixin\wxdemo\bin\Newtonsoft.Json.Net20.dll
+F:\weixin\wxdemo\obj\Debug\WeiXinApi.dll
+F:\weixin\wxdemo\obj\Debug\WeiXinApi.pdb
+C:\weixin\obj\Debug\ResolveAssemblyReference.cache
+C:\weixin\bin\WeiXinApi.dll
+C:\weixin\bin\WeiXinApi.pdb
+C:\weixin\obj\Debug\WeiXinApi.dll
+C:\weixin\obj\Debug\WeiXinApi.pdb
